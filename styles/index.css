@@ -1,5 +1,6 @@
 nav {
     /* background-color: #0779E4; */
+    background-color: transparent;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -26,7 +27,7 @@ nav {
 }
 
 .hero{
-    background-image: url(../images/asset\ 2.jpeg);
+    background-image: url(../images/asset2.jpeg);
     height: 100vh;
     background-size: cover;
     display: flex;
@@ -38,5 +39,9 @@ nav {
 .hero-content{
     width: 80%;
     margin: auto;
+    color: white;
+    font-size: 20px;
+    line-height: 1.6;
+    line-break: loose;
 
 }
