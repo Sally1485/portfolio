@@ -1,3 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100..900&display=swap');
+
+*{
+    
+
+  font-family: "Encode Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+
+}
+
+
+
 nav {
     /* background-color: #0779E4; */
     background-color: transparent;
@@ -11,7 +27,7 @@ nav {
     left: 0;
 }
 
-.nav-items{
+.nav-items {
     width: 50%;
     display: flex;
     flex-direction: row;
@@ -26,7 +42,7 @@ nav {
     font-weight: bold;
 }
 
-.hero{
+.hero {
     background-image: url(../images/asset2.jpeg);
     height: 100vh;
     background-size: cover;
@@ -36,12 +52,70 @@ nav {
     align-items: center;
 }
 
-.hero-content{
+.hero-content {
     width: 80%;
     margin: auto;
     color: white;
     font-size: 20px;
     line-height: 1.6;
     line-break: loose;
+    position: relative;
+}
 
+.hero-content h1{
+    padding: 5px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.hero-head {
+    position: absolute;
+    background-color: white;
+    font-weight: bold;
+    color: #0079e4;
+    padding: 4px;
+    border-radius: 4px;
+    text-align: center;
+    top: -50px;
+    z-index: 2;
+}
+
+.hero-head::after {
+    content: "";
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: -4px;
+    left: 35px;
+    top: 30px;
+    transform: rotate(45deg);
+    z-index: -1;
+}
+
+.hero-p {
+    width: 50%;
+    /* text-wrap: wrap; */
+}
+
+.hero-btn{
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    
+    
+}
+
+.btna{
+    background-color: #0079e4;
+}
+
+.btnb{
+    background-color: white;
+    color: #0079e4;
+}
+
+.hero-social{
+    font-size: 15px;
+    padding-top: 20px;
 }
