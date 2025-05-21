@@ -10,7 +10,19 @@ document.addEventListener('scroll',function() {
         // change navbar bg to transparent
        navElement.style.backgroundColor = 'transparent'
     }
+    
 });
+
+
+
+
+
+
+
+
+
+
+
 
 
 
