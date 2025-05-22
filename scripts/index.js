@@ -14,8 +14,21 @@ document.addEventListener('scroll',function() {
 });
 
 
+// OBJECTS AND ARRAYS
+const products = [product1, product2]
+const product1 = {
+  name: 'Digestive',
+  price: 45.56,
+  avaliable: true,
+}
+ const product2 ={
+   name: 'Cookies',
+   price: 56.78,
+   avaliable: false,
+ }
+ products.push(product1, product2)
 
-
+ console.table(products);
 
 
 
